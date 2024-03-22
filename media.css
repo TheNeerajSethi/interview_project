@@ -1,0 +1,130 @@
+@media (width <1290px){
+    .gridc{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .middlesection{
+        margin-top: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+@media (width < 980px){
+    .gridc{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .heading{
+        font-size: larger;
+        text-align: center;
+    }
+    .imgp{
+        
+        width: 21.5rem;
+        height: 14rem;
+        margin-right: .3rem;
+    }
+}
+
+
+
+
+@media (width < 768px){
+    .btxt{
+        text-align: center;
+    }
+    .bpage {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .bul{
+        text-align: center;
+    }
+    .logo {
+        display: flex;
+        width: auto;
+    }
+    .bdiv {
+        width: auto;
+    }
+    .menu {
+        width: auto;
+    }
+    footer {
+        height: auto;
+
+        width: 100%;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background: rgb(158, 158, 158);
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        height: 200px;
+        width: 21rem;
+        padding: 5px;
+    }
+    .sec{
+        height: auto;
+        width: 21.5rem;
+    }
+    .gridc{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    .middlesection{
+        margin-top: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .main{
+        width: 100%;
+    }
+    button{
+        margin-bottom: .5rem;
+    }
+    .text{
+        text-align: center;
+    }
+    .heading{
+        font-size: x-large;
+        text-align: center;
+    }
+    .imgp{
+        width: 21.5rem;
+        height: 17rem;
+        margin-right: 0;
+    }
+    .s1{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
+        max-width: fit-content;
+        margin: 0px;
+        height: fit-content;
+        padding: 1px;
+    }
+    .header{
+        justify-content: center;
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+    .headimg{
+        padding: 10px;
+    }
+
+}
